@@ -17,7 +17,7 @@ pattern = "^(?P<base>\\d+\\.\\d+\\.\\d+)"
 [tool.poetry.dependencies]
 python = "^3.8"
 gokart = ">=0.1.20"
-pandas = "<1.2"
+pandas = "*"
 numpy = "*"
 scipy = "*"
 gensim = "3.8.3"
